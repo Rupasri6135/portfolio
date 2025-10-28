@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(238, 130, 130);
+   
+}
+section{
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+}
+/* KEYFRAMES ANIMATION */
+@keyframes slideRight {
+0%{
+transform: translateX(-100px);
+opacity: 0;
+}
+100%{
+transform: translateX(0);
+opacity: 1;
+}
